@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doc</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a829801256.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="home">
+                <ul>
+                    <li id="a">
+                        <span class="material-symbols-outlined">home</span> 
+                        <a href="#">Home</a>
+                    </li>
+                    <li id="b">
+                        <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48">Search</span>
+                        <a href="#" for="b">Search</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="library">
+                <div class="your-library">
+                    <div class="your">
+                        <i><img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\library_icon.png" alt="library_icon"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <span class="badge text-bg-secondary">Create playlist of folder</span>
+                    </div>
+                </div>
+                <div class="reco">
+                    <button type="button" class="btn btn-secondary btn-sm">Playlists</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Artists</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Podcasts & Shows</button>
+                </div>
+                <div class="drop">
+                    <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 48">Search</span>
+                    <form class="dropdown"> 
+                        <select>  
+                        <option value = "Recents"> Recents </option>  
+                        <option value = "Mercedes"> Recently Added </option>  
+                        <option value = "Audi"> Alphabetical </option>  
+                        <option value = "Skoda"> Creator </option>  
+                        </select>  
+                    </form>  
+                </div>
+
+
+                <div class="side-cards" style="background-color: rgb(18, 18, 18);">
+                    <div class="episodes">
+                        <div id="bookmark-logo">
+                            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 100, 'wght' 400, 'GRAD' 0, 'opsz' 48">bookmark</span>
+                        </div>
+                        <div id="bookmark-text">
+                            <h6>Your Episodes</h6>
+                            <div id="xyz">
+                                <i class="fa-solid fa-thumbtack" style="rotate: 45deg;;"></i>
+                                <p>Saved & downloaded episodes</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="Darshan">
+                        <div class="darshan-img">
+                            <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\darshan raval.jpeg" alt="darshan raval image">
+                        </div>
+                        <div class="darshan-name">
+                            <h6>Darshan Raval</h6>
+                            <div id="xyz1"><p>Artist</p></div>
+                        </div>
+                    </div>
+
+
+                    <div class="Pritam">
+                        <div class="pritam-img">
+                            <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\pritam.jpeg" alt="Pritam image">
+                        </div>
+                        <div class="pritam-name">
+                            <h6>Pritam</h6>
+                            <div id="xyz2"><p>Artist</p></div>
+                        </div>
+                    </div>
+
+
+                    <div class="imagine">
+                        <div class="imagine-img">
+                            <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\imagine dragons.jpeg" alt="imagine dragons image">
+                        </div>
+                        <div class="imagine-name">
+                            <h6>Imagine Dragons</h6>
+                            <div id="xyz3"><p>Artist</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="maincontent">
+            <div class="nav">
+                <div id="arrows">
+                    <a class="nav-link disabled" aria-disabled="true" ><i class="fa-solid fa-circle-chevron-left"></i></a>
+                    <a id="left-arrow" class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
+                <div id="login">
+                    <button class="premium">Explore Premium</button>
+                    <button class="ownload">Install App</button>
+                    <span class="material-symbols-outlined">account_circle</span>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="best-ep">
+                    <span>Charts</span>
+                    <a href="#">Show all</a>
+                </div>
+                <div class="best-ep-cards">
+                    <div class="best-ep-card1" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\card1img.jpeg" class="card-img-top" alt="Top_50_Global">
+                        <div class="card-body">
+                          <h6 class="card-title">Top 50 - Global</h6>
+                          <p class="card-text">International Hits</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card2" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\card5img.jpeg" class="card-img-top" alt="Top_Songs_Global">
+                        <div class="card-body">
+                          <h6 class="card-title">Top Songs - Global</h6>
+                          <p class="card-text">Most Popular Global Songs</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\card6img.jpeg" class="card-img-top" alt="Top_Songs_India">
+                        <div class="card-body">
+                          <h6 class="card-title">Top Songs - India</h6>
+                          <p class="card-text">Desi Tadka of Indian Songs</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\viral 50 Germany.jpg" class="card-img-top" alt="viral_50_Germany">
+                        <div class="card-body">
+                          <h6 class="card-title">viral 50 - Germany</h6>
+                          <p class="card-text">Listen the viral hits from Germany</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\viral 50 Japan.jpg" class="card-img-top" alt="viral_50_Japan">
+                        <div class="card-body">
+                          <h6 class="card-title">viral 50 - Japan</h6>
+                          <p class="card-text">Listen the viral hits from Japan</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <div class="cards">
+                <div class="best-ep">
+                    <span>Made For You</span>
+                </div>
+                <div class="best-ep-cards">
+                    <div class="best-ep-card1" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\madeforyou1.jpg" class="card-img-top" alt="madeforyou1">
+                        <div class="card-body">
+                          <h6 class="card-title">Made For You Radio</h6>
+                          <p class="card-text">Nathan Rux & Max Landry</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card2" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\madeforyou2.jpg" class="card-img-top" alt="madeforyou2">
+                        <div class="card-body">
+                          <h6 class="card-title">Alex Maddox Radio</h6>
+                          <p class="card-text">feat. Alex Maddox</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\madeforyou3.jpg" class="card-img-top" alt="madeforyou3">
+                        <div class="card-body">
+                          <h6 class="card-title">Find Yourself Radio</h6>
+                          <p class="card-text">A Journey to discover you</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <div class="cards">
+                <div class="best-ep">
+                    <span>Popular Albums</span>
+                    <a href="#">Show all</a>
+                </div>
+                <div class="best-ep-cards">
+                    <div class="best-ep-card1" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album1.jpg" class="card-img-top" alt="Top_50_Global">
+                        <div class="card-body">
+                          <h6 class="card-title">Still Rollin</h6>
+                          <p class="card-text">Shubh</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card2" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album2.jpg" class="card-img-top" alt="Top_Songs_Global">
+                        <div class="card-body">
+                          <h6 class="card-title">Moosetape</h6>
+                          <p class="card-text">Sidhu Moose Wala</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album3.jpeg" class="card-img-top" alt="Top_Songs_India">
+                        <div class="card-body">
+                          <h6 class="card-title">Kabir Singh</h6>
+                          <p class="card-text">Various Artists</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album4.jpg" class="card-img-top" alt="viral_50_Germany">
+                        <div class="card-body">
+                          <h6 class="card-title">Saroor</h6>
+                          <p class="card-text">Arjan Dhillon, Mxrci</p>
+                        </div>
+                    </div>
+                    <div class="best-ep-card3" style="width: 13rem;">
+                        <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album5.jpg" class="card-img-top" alt="viral_50_Japan">
+                        <div class="card-body">
+                          <h6 class="card-title">Champagne Talk</h6>
+                          <p class="card-text">King</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="musicplayer">
+            <div class="tumhiho">
+                <div class="log">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\log.jpeg" alt="Tum-hi-ho">
+                </div>
+                <div class="text">
+                    <span>Tum Hi Ho</span>
+                    <p>Arjit Singh</p>
+                </div>
+                <div class="ico">
+                    <img src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album_icon1.png" alt="Heart">
+                    <img id="album_icon2" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\album_icon2.png" alt="pata nhi kya hai">
+                </div>
+            </div>
+
+            <div class="playback">
+                <div class="player-icons">
+                    <img class="f" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\player_icon1.png" alt="1">
+                    <img class="s" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\player_icon2.png" alt="2">
+                    <img class="t" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\player_icon3.png" alt="3">
+                    <img class="s" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\player_icon4.png" alt="4">
+                    <img class="f" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\player_icon5.png" alt="5">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="iconss">
+                <img class="as" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\controls_icon1.png" alt="ctrl1">
+                <img class="df" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\controld_icon2.png" alt="ctrl1">
+                <img class="gh" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\controls_icon3.png" alt="ctrl1">
+                <img class="jk" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\controls_icon4.png" alt="ctrl1">
+                <img class="l" src="C:\Users\Admin\OneDrive\Desktop\JAVA\CSS\Delta-Batch\Assets\Spotify CLone\controls_icon5.png" alt="ctrl1">
+                <input type="range" class="final-range">
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
